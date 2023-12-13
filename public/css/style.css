@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f1f1f1;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #003049;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    background-color: #f1f1f1;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #FCBF49;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #EAE2B7;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+}
+
+li input[type="checkbox"] {
+    margin-right: 10px;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #003049;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+li input[type="checkbox"]:checked {
+    background-color: #003049;
+}
+
+li span {
+    flex-grow: 1;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #003049;
+}
+
+li time {
+    font-size: 14px;
+    color: #666;
+    margin-right: 10px;
+}
+
+li a {
+    color: #D62828;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+}

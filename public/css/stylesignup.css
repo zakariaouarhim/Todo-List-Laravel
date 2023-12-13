@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #EAE2B7; /* Light yellow background */
+}
+
+.signup-container {
+    background-color: #003049; /* Dark blue background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #EAE2B7; /* Light yellow text color */
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    color: #F77F00; /* Orange header color */
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #F77F00; /* Orange label color */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #F77F00; /* Orange border */
+    border-radius: 4px;
+    color: #003049; /* Dark blue text color */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    margin-top: 2px; /* Adjusting the top margin for better alignment */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #D62828; /* Red button background */
+    color: #EAE2B7; /* Light yellow text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FCBF49; /* Yellow on hover */
+}
